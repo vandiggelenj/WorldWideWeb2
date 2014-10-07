@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>CS4830 Exploration </title>
+
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure.css">
+<script src="http://yui.yahooapis.com/3.17.2/build/yui/yui-min.js"></script>
+
+
+  
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="css/layouts/side-menu.css">
+    <!--<![endif]-->
+    
+	<script>
+		function weather(){
+				YUI().use('node', 'yql', function(Y) {
+    
+    			var res = Y.one('#res'),
+        		zip = '65201';
+    
+    			Y.YQL('select * from weather.forecast where location=' + zip, function(r){
+    			
+    			console.dir(r);
+    			var img = document.getElementById('res');
+    			img.innerHTML = r.query.results.channel.item.description;
+    			
+
+		}
+			</script> 
+
+	<script>
+		function pizza(){
+				YUI().use('node', 'yql', function(Y) {
+    
+    			var rex = Y.one('#rex');
+    			//var query = 'pizza', location = 'columbia, mo';
+    
+    			Y.YQL('select * from local.search where query="pizza" and location="columbia, mo"', function(r){
+    			
+    			console.dir(r);
+    			
+    			var i = 0;
+    			
+    			for(i=0;i<10;i++){
+    			
+    			var img = document.getElementById('rex');
+    			img.innerHTML = r.query.results.Result[i].Title;
+    			1
+    			}
+    
+    			});
+			});
+		}
+			</script> 
+
+</head>
+<body>
+<div id="layout">
+
+    <a href="#menu" id="menuLink" class="menu-link">
+    
+        <span></span>
+    </a>
+
+    <div id="menu">
+        <div class="pure-menu pure-menu-open">
+            <a class="pure-menu-heading" href="#">CS4830</a>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href='exploration.html'>Exploration</a><li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="main">
+        <div class="header">
+            <h1>Exploring PureCSS</h1>
+            <h2>Jake VanDiggelen</h2>
+        </div>
+
+        <div class="content">
+           
+           	<div id='res'>
+            <h2 class="content-subhead">YQL Queries</h2>
+            <p>
+			<button onclick = "weather()" class="pure-button">Get Current Columbia Weather</button>
+			</p>
+			</div>
+			
+			<div id='rex'>
+			<p>
+			<button onclick = "pizza()" class="pure-button">Pizza places in Columbia, MO</button>	
+			</p>
+			</div>
+			
+			
+			
+    		</div>
+    		
+
+          
+           
+           
+		</div>
+
+
+
+
+
+<script src="js/ui.js"></script>
+
+
+</body>
+</html>
