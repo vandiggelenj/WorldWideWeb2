@@ -1,0 +1,474 @@
+{
+ "query": {
+  "count": 10,
+  "created": "2014-10-07T23:33:05Z",
+  "lang": "en-US",
+  "diagnostics": {
+   "publiclyCallable": "true",
+   "cache": [
+    {
+     "execution-start-time": "1",
+     "execution-stop-time": "2",
+     "execution-time": "1",
+     "method": "GET",
+     "type": "MEMCACHED",
+     "content": "local.search://transorm_xsl_5HWCXxRh"
+    },
+    {
+     "execution-start-time": "1",
+     "execution-stop-time": "2",
+     "execution-time": "1",
+     "method": "get",
+     "type": "MEMCACHED",
+     "content": "local.search://transorm_xsl_5HWCXxRh"
+    },
+    {
+     "execution-start-time": "836",
+     "execution-stop-time": "836",
+     "execution-time": "0",
+     "method": "GET",
+     "type": "MEMCACHED",
+     "content": "5c39bc778e31044790d007ed3951f35f"
+    }
+   ],
+   "url": {
+    "execution-start-time": "2",
+    "execution-stop-time": "830",
+    "execution-time": "828",
+    "content": "hidden"
+   },
+   "query": {
+    "execution-start-time": "853",
+    "execution-stop-time": "865",
+    "execution-time": "12",
+    "content": "select * from xslt where xml=@xml and stylesheetliteral=@stylesheet"
+   },
+   "javascript": {
+    "execution-start-time": "0",
+    "execution-stop-time": "866",
+    "execution-time": "865",
+    "instructions-used": "0",
+    "table-name": "local.search"
+   },
+   "user-time": "867",
+   "service-time": "830",
+   "build-version": "0.2.2666"
+  },
+  "results": {
+   "Result": [
+    {
+     "id": "17837804",
+     "xmlns": "urn:yahoo:lcl",
+     "Title": "Shakespeare's Pizza",
+     "Address": "225 S 9th St",
+     "City": "Columbia",
+     "State": "MO",
+     "Phone": "(573) 449-2454",
+     "Latitude": "38.948663",
+     "Longitude": "-92.327904",
+     "Rating": {
+      "AverageRating": "4.5",
+      "TotalRatings": "31",
+      "TotalReviews": "31",
+      "LastReviewDate": "1287163444",
+      "LastReviewIntro": " this stuff is great! classic columbia atmosphere, love it!"
+     },
+     "Distance": "0.08",
+     "Url": "https://local.yahoo.com/details?id=17837804&stx=pizza&csz=0",
+     "ClickUrl": "https://local.yahoo.com/details?id=17837804&stx=pizza&csz=0",
+     "MapUrl": "https://local.yahoo.com/info-17837804-shakespeare-s-pizza-columbia?viewtype=map",
+     "BusinessUrl": "http://www.shakespeares.com/",
+     "BusinessClickUrl": "http://www.shakespeares.com/",
+     "Categories": {
+      "Category": [
+       {
+        "id": "96926243",
+        "content": "Pizza"
+       },
+       {
+        "id": "96926236",
+        "content": "Restaurant"
+       },
+       {
+        "id": "96925852",
+        "content": "Catering Service"
+       }
+      ]
+     }
+    },
+    {
+     "id": "17836774",
+     "xmlns": "urn:yahoo:lcl",
+     "Title": "Tony's Pizza Palace",
+     "Address": "17 N 5th St",
+     "City": "Columbia",
+     "State": "MO",
+     "Phone": "(573) 442-3188",
+     "Latitude": "38.952222",
+     "Longitude": "-92.332001",
+     "Rating": {
+      "AverageRating": "5",
+      "TotalRatings": "11",
+      "TotalReviews": "11",
+      "LastReviewDate": "1326071639",
+      "LastReviewIntro": " My friend and I were in here tonight and while the place is old it was very clean. The food was delicious, some of the best pizza outside of Chicago weve tasted and the waitress, Sarah, was awesome!"
+     },
+     "Distance": "0.41",
+     "Url": "https://local.yahoo.com/details?id=17836774&stx=pizza&csz=0",
+     "ClickUrl": "https://local.yahoo.com/details?id=17836774&stx=pizza&csz=0",
+     "MapUrl": "https://local.yahoo.com/info-17836774-tony-s-pizza-palace-columbia?viewtype=map",
+     "BusinessUrl": "http://www.pizzacolumbiamo.com/",
+     "BusinessClickUrl": "http://www.pizzacolumbiamo.com/",
+     "Categories": {
+      "Category": [
+       {
+        "id": "96926236",
+        "content": "Restaurant"
+       },
+       {
+        "id": "96926243",
+        "content": "Pizza"
+       }
+      ]
+     }
+    },
+    {
+     "id": "17859474",
+     "xmlns": "urn:yahoo:lcl",
+     "Title": "G and D Pizza and Steaks",
+     "Address": "2101 W Broadway",
+     "City": "Columbia",
+     "State": "MO",
+     "Phone": "(573) 445-8336",
+     "Latitude": "38.954473",
+     "Longitude": "-92.372131",
+     "Rating": {
+      "AverageRating": "4.5",
+      "TotalRatings": "6",
+      "TotalReviews": "6",
+      "LastReviewDate": "1219264474",
+      "LastReviewIntro": " This is a great place to get good food at a good price. They actually remembered my family the second time we came in. The staff always appears to be having a good day at work. Our family enjoys eating here often."
+     },
+     "Distance": "2.47",
+     "Url": "https://local.yahoo.com/details?id=17859474&stx=pizza&csz=0",
+     "ClickUrl": "https://local.yahoo.com/details?id=17859474&stx=pizza&csz=0",
+     "MapUrl": "https://local.yahoo.com/info-17859474-g-and-d-pizza-and-steaks-columbia?viewtype=map",
+     "BusinessUrl": "http://www.gdpizzasteak.com/",
+     "BusinessClickUrl": "http://www.gdpizzasteak.com/",
+     "Categories": {
+      "Category": [
+       {
+        "id": "96926193",
+        "content": "Greek Restaurant"
+       },
+       {
+        "id": "96926243",
+        "content": "Pizza"
+       },
+       {
+        "id": "96926236",
+        "content": "Restaurant"
+       }
+      ]
+     }
+    },
+    {
+     "id": "17839990",
+     "xmlns": "urn:yahoo:lcl",
+     "Title": "Domino's Pizza",
+     "Address": "1621 Towne Dr, Ste A",
+     "City": "Columbia",
+     "State": "MO",
+     "Phone": "(573) 474-9565",
+     "Latitude": "38.969892",
+     "Longitude": "-92.304291",
+     "Rating": {
+      "AverageRating": "4",
+      "TotalRatings": "1",
+      "TotalReviews": "1",
+      "LastReviewDate": "1256366229",
+      "LastReviewIntro": " Always ontime, always hot needs a tad more tomato sauce. Much better drivers than the hut who dropped the pie on its side and did not tell me. Good Job."
+     },
+     "Distance": "1.95",
+     "Url": "https://local.yahoo.com/details?id=17839990&stx=pizza&csz=0",
+     "ClickUrl": "https://local.yahoo.com/details?id=17839990&stx=pizza&csz=0",
+     "MapUrl": "https://local.yahoo.com/info-17839990-domino-s-pizza-columbia?viewtype=map",
+     "BusinessUrl": "http://www.dominos.com/?utm_source=yahoo&utm_medium=organic&utm_campaign=localmaps",
+     "BusinessClickUrl": "http://www.dominos.com/?utm_source=yahoo&utm_medium=organic&utm_campaign=localmaps",
+     "Categories": {
+      "Category": [
+       {
+        "id": "96926243",
+        "content": "Pizza"
+       },
+       {
+        "id": "96926238",
+        "content": "Sandwiches"
+       },
+       {
+        "id": "96926148",
+        "content": "Food Delivery Service"
+       },
+       {
+        "id": "96926236",
+        "content": "Restaurant"
+       },
+       {
+        "id": "96926190",
+        "content": "Italian Restaurant"
+       }
+      ]
+     }
+    },
+    {
+     "id": "17852266",
+     "xmlns": "urn:yahoo:lcl",
+     "Title": "Shakespeare's Pizza",
+     "Address": "3304 W Broadway Business Park Ct",
+     "City": "Columbia",
+     "State": "MO",
+     "Phone": "(573) 447-1202",
+     "Latitude": "38.954015",
+     "Longitude": "-92.385765",
+     "Rating": {
+      "AverageRating": "3.5",
+      "TotalRatings": "3",
+      "TotalReviews": "3",
+      "LastReviewDate": "1286213179",
+      "LastReviewIntro": " I tried Shakespeares Pizza several tmes, each time they over-cooked the pizza and used the wrong crust and extremely long wait periods for a pizza 45-60 min. Missouri is not known for its Pizza. I only get there Pizza because I live across the street from them so its easy for me. Last 4 times I ordered a Pizza from them I almost threw up! esp there white crust, I would to take the owner to Ginos pizza in chicago or to .adriennes pizza bar in Brooklyn to compare. Then he can tasts what good pizza is! I will never waste my hard earned money on what they call pizza. His customers are college students down town and kids in the west side. I need a real pizzeria not an upgrade chucky cheese pizza, any suggestions?"
+     },
+     "Distance": "3.19",
+     "Url": "https://local.yahoo.com/details?id=17852266&stx=pizza&csz=0",
+     "ClickUrl": "https://local.yahoo.com/details?id=17852266&stx=pizza&csz=0",
+     "MapUrl": "https://local.yahoo.com/info-17852266-shakespeare-s-pizza-columbia?viewtype=map",
+     "BusinessUrl": "http://www.shakespeares.com/",
+     "BusinessClickUrl": "http://www.shakespeares.com/",
+     "Categories": {
+      "Category": [
+       {
+        "id": "96926243",
+        "content": "Pizza"
+       },
+       {
+        "id": "96926236",
+        "content": "Restaurant"
+       },
+       {
+        "id": "96935005",
+        "content": "Department Store"
+       },
+       {
+        "id": "96925852",
+        "content": "Catering Service"
+       }
+      ]
+     }
+    },
+    {
+     "id": "17835891",
+     "xmlns": "urn:yahoo:lcl",
+     "Title": "Imo's Pizza",
+     "Address": "905 Safari Dr",
+     "City": "Columbia",
+     "State": "MO",
+     "Phone": "(573) 886-7373",
+     "Latitude": "38.987142",
+     "Longitude": "-92.326103",
+     "Rating": {
+      "AverageRating": "5",
+      "TotalRatings": "1",
+      "TotalReviews": "1",
+      "LastReviewDate": "1143548186",
+      "LastReviewIntro": " they qwerent busy but the manager was sitting with his girlfriend drinking beer and then went outside was not taking care of business. slow service and told me the pizza would take about 20 minutes then they never made my cheese bread so they made me a extra one. This business needs ALOT of attention"
+     },
+     "Distance": "2.72",
+     "Url": "https://local.yahoo.com/details?id=17835891&stx=pizza&csz=0",
+     "ClickUrl": "https://local.yahoo.com/details?id=17835891&stx=pizza&csz=0",
+     "MapUrl": "https://local.yahoo.com/info-17835891-imo-s-pizza-columbia?viewtype=map",
+     "BusinessUrl": "http://www.imospizza.com",
+     "BusinessClickUrl": "http://www.imospizza.com",
+     "Categories": {
+      "Category": [
+       {
+        "id": "96926243",
+        "content": "Pizza"
+       },
+       {
+        "id": "96926236",
+        "content": "Restaurant"
+       }
+      ]
+     }
+    },
+    {
+     "id": "17842865",
+     "xmlns": "urn:yahoo:lcl",
+     "Title": "Domino's Pizza",
+     "Address": "416 S 9th St",
+     "City": "Columbia",
+     "State": "MO",
+     "Phone": "(573) 875-3030",
+     "Latitude": "38.946641",
+     "Longitude": "-92.327263",
+     "Rating": {
+      "AverageRating": "2.5",
+      "TotalRatings": "3",
+      "TotalReviews": "3",
+      "LastReviewDate": "1320885630",
+      "LastReviewIntro": " Some employee wrote in their own tip. A few days ago I picked up my pizza and made the mistake of leaving the tip amount blank instead of writing in zero, since I picked it up. Well today I noticed the charge came through my bank for a dollar more than the amount on my receipt. Very dishonest. Check your receipts and dont leave the amount blank or they will steal from you."
+     },
+     "Distance": "0.08",
+     "Url": "https://local.yahoo.com/details?id=17842865&stx=pizza&csz=0",
+     "ClickUrl": "https://local.yahoo.com/details?id=17842865&stx=pizza&csz=0",
+     "MapUrl": "https://local.yahoo.com/info-17842865-domino-s-pizza-columbia?viewtype=map",
+     "BusinessUrl": "http://www.dominos.com/?utm_source=yahoo&utm_medium=organic&utm_campaign=localmaps",
+     "BusinessClickUrl": "http://www.dominos.com/?utm_source=yahoo&utm_medium=organic&utm_campaign=localmaps",
+     "Categories": {
+      "Category": [
+       {
+        "id": "96926243",
+        "content": "Pizza"
+       },
+       {
+        "id": "96926238",
+        "content": "Sandwiches"
+       },
+       {
+        "id": "96926148",
+        "content": "Food Delivery Service"
+       },
+       {
+        "id": "96926236",
+        "content": "Restaurant"
+       },
+       {
+        "id": "96926190",
+        "content": "Italian Restaurant"
+       }
+      ]
+     }
+    },
+    {
+     "id": "17852262",
+     "xmlns": "urn:yahoo:lcl",
+     "Title": "Shakespeare's Pizza",
+     "Address": "3911 Peachtree Dr, Ste H",
+     "City": "Columbia",
+     "State": "MO",
+     "Phone": "(573) 447-7435",
+     "Latitude": "38.90635",
+     "Longitude": "-92.33799",
+     "Rating": {
+      "AverageRating": "3",
+      "TotalRatings": "2",
+      "TotalReviews": "2",
+      "LastReviewDate": "1230911203",
+      "LastReviewIntro": " we went down to southside pizza for the new year, best time we ever had, free drinks no cover charge and the food was amazing. if you havnt try this place you have to. my favorit item in menu gyro pizza, and thier beer prices its amazing i mean $1 draft and bottle its crazy."
+     },
+     "Distance": "2.93",
+     "Url": "https://local.yahoo.com/details?id=17852262&stx=pizza&csz=0",
+     "ClickUrl": "https://local.yahoo.com/details?id=17852262&stx=pizza&csz=0",
+     "MapUrl": "https://local.yahoo.com/info-17852262-shakespeare-s-pizza-columbia?viewtype=map",
+     "BusinessUrl": "http://www.shakespeares.com/",
+     "BusinessClickUrl": "http://www.shakespeares.com/",
+     "Categories": {
+      "Category": [
+       {
+        "id": "96926243",
+        "content": "Pizza"
+       },
+       {
+        "id": "96926236",
+        "content": "Restaurant"
+       },
+       {
+        "id": "96926184",
+        "content": "Tapas Restaurant"
+       },
+       {
+        "id": "96925852",
+        "content": "Catering Service"
+       }
+      ]
+     }
+    },
+    {
+     "id": "17838935",
+     "xmlns": "urn:yahoo:lcl",
+     "Title": "Gumby's Pizza of Columbia",
+     "Address": "1201 E Broadway",
+     "City": "Columbia",
+     "State": "MO",
+     "Phone": "(573) 874-8629",
+     "Latitude": "38.951772",
+     "Longitude": "-92.324058",
+     "Rating": {
+      "AverageRating": "3.5",
+      "TotalRatings": "2",
+      "TotalReviews": "2",
+      "LastReviewDate": "1261211609",
+      "LastReviewIntro": " Ive always loved Gumbys food itself; its delicious, good helpings, nice, cheap prices. But inside the restaurant is DISGUSTING!!! It looks like a dungeon, with dim lights, walls literally painted dark green and red, and uncomfortable furniture crammed into a tiny space. The entire restaurant smells faintly of urine, particularly in the bathrooms. The employees, at least on the days Ive gone there, have had long hair (w/ no hair nets) lots of tattoos and piercings. I dont judge peoples appearance personally, but as food preparers they look like they have all the qualities needed to spread the Hep C virus. In short, if you love the pizza, which ironically is very good, and you dont mind dark, morose, cramped spaces, a constant urine scent, or dirty-looking people, then get yourself some Gumbys. Its good grub. Otherwise, go somewhere else."
+     },
+     "Distance": "0.31",
+     "Url": "https://local.yahoo.com/details?id=17838935&stx=pizza&csz=0",
+     "ClickUrl": "https://local.yahoo.com/details?id=17838935&stx=pizza&csz=0",
+     "MapUrl": "https://local.yahoo.com/info-17838935-gumby-s-pizza-of-columbia-columbia?viewtype=map",
+     "BusinessUrl": "http://gumbyscolumbia.com/",
+     "BusinessClickUrl": "http://gumbyscolumbia.com/",
+     "Categories": {
+      "Category": [
+       {
+        "id": "96926243",
+        "content": "Pizza"
+       },
+       {
+        "id": "96926236",
+        "content": "Restaurant"
+       }
+      ]
+     }
+    },
+    {
+     "id": "17838913",
+     "xmlns": "urn:yahoo:lcl",
+     "Title": "Pizza Hut",
+     "Address": "715 E Nifong Blvd",
+     "City": "Columbia",
+     "State": "MO",
+     "Phone": "(573) 886-6679",
+     "Latitude": "38.910173",
+     "Longitude": "-92.330132",
+     "Rating": {
+      "AverageRating": "1",
+      "TotalRatings": "3",
+      "TotalReviews": "3",
+      "LastReviewDate": "1362744691",
+      "LastReviewIntro": " Bad.....Just bad - we had pizza delivered and it was the worst ive had. Follow up on the complaint was even worse. Bad management bad pizza"
+     },
+     "Distance": "2.61",
+     "Url": "https://local.yahoo.com/details?id=17838913&stx=pizza&csz=0",
+     "ClickUrl": "https://local.yahoo.com/details?id=17838913&stx=pizza&csz=0",
+     "MapUrl": "https://local.yahoo.com/info-17838913-pizza-hut-columbia?viewtype=map",
+     "BusinessUrl": "http://www.pizzahut.com/locations/missouri/columbia/009589",
+     "BusinessClickUrl": "http://www.pizzahut.com/locations/missouri/columbia/009589",
+     "Categories": {
+      "Category": [
+       {
+        "id": "96926243",
+        "content": "Pizza"
+       },
+       {
+        "id": "96926236",
+        "content": "Restaurant"
+       },
+       {
+        "id": "96926190",
+        "content": "Italian Restaurant"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ }
+}
